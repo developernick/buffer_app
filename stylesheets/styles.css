@@ -1,0 +1,15 @@
+
+body{
+	background-color: rgb(56, 69, 69);
+}
+.demo{
+	border: 2px white dashed;
+}
+.test{
+	border: 2px red solid;
+	height: 5em;
+	width: 5em;
+}
+.heading{
+	height: 300px;
+}
