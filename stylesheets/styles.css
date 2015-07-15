@@ -12,4 +12,8 @@ body{
 }
 .heading{
 	height: 300px;
+	background: grey;
+}
+.iconLeft{
+height: 150px;
 }
