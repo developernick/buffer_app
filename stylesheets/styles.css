@@ -1,6 +1,17 @@
 
 body{
-	background-color: rgb(56, 69, 69);
+	font-family: "Open Sans",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: #59626a;
+	height: 100%;
+	background-color: #fff;
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: 700;
+	font-family: Lato,"Open Sans",Helvetica,sans-serif;
+	line-height: 1;
 }
 .demo{
 	border: 2px white dashed;
@@ -10,10 +21,34 @@ body{
 	height: 5em;
 	width: 5em;
 }
+/*_-_-_-_-_- Heading _-_-_-_-_- */
 .heading{
 	height: 300px;
-	background: grey;
+	border: #59626a 1px solid;
 }
 .iconLeft{
-height: 150px;
+bottom: 150px;
+}
+/*_-_-_-_-_- Left Side _-_-_-_-_- */
+.about{
+ padding-top: 60px;
+}
+.circle{
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+	background-image: url(images/Nick8x10.png);
+	background-position-x: 13%;
+	background-position-y: 13%;
+	background-size: 170px;
+}
+.my-name{
+	color: #323b43;
+	line-height: 1.4;
+	font-size: 16px;
+	font-weight: 600;
+}
+.my-name span{
+	color: #8b959e;
+font-weight: 400;
 }
